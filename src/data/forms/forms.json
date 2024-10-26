@@ -1,0 +1,10 @@
+{
+    "formInputs": {
+        "dailyassOptions": [
+            { "id": 1, "label": "Only PMC" },
+            { "id": 2, "label": "Only PCMC" },
+            { "id": 3, "label": "PMC and PCMC" },
+            { "id": 4, "label": "All Routes" }
+        ]
+    }
+}

@@ -23,10 +23,12 @@ Install aapli-pmpml with npm
 
 ## Features
 
-- Google Map integration
-- Online Payments
-- Live bus tracking
-- Light/dark mode toggle
+
+- **Multilingual Support**: Users can switch between [Language 1] and [Language 2] for a seamless experience.
+- **Google Map integration**
+- **Online Payments**
+- **Live bus tracking**
+- **Light/dark mode toggle**
 
 
 ## Authors
