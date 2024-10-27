@@ -1,10 +1,16 @@
 {
     "formInputs": {
         "dailyassOptions": [
-            { "id": 1, "label": "Only PMC" },
-            { "id": 2, "label": "Only PCMC" },
-            { "id": 3, "label": "PMC and PCMC" },
-            { "id": 4, "label": "All Routes" }
-        ]
+            { "id": 1, "label": "Only PMC - $40.0" , "amount": 40, "validIn": "Only valid in PMC routes."},
+            { "id": 2, "label": "Only PCMC - $40.0" , "amount": 40, "validIn": "Only valid in PCMC routes."},
+            { "id": 3, "label": "PMC & PCMC - $50.0" , "amount": 50, "validIn": "Valid in both PMC and PCMC routes."},
+            { "id": 4, "label": "All Routes - $120.0", "amount": 120, "validIn": "Only valid in all routes of PMPML." }
+        ],
+        "back": "Back",
+        "passTitle": "Daily Pass",
+        "timer": "Timer:",
+        "lastDigits": "Enter last 4 digits of your Aadhar or Pan Card",
+        "idInstruction": "You should have a valid GOV. ID with above details.",
+        "amount": "AMOUNT PAYABLE"
     }
 }
