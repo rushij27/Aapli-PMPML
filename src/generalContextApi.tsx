@@ -8,7 +8,8 @@ export const useGeneralContext = () => {
 
 const GeneralProvider = ({ children }: any) => {
     const [state, setState] = useState({
-        isSessionExpired: false
+        isSessionExpired: false,
+        route: {}
     });
     return (
         <GeneralContext.Provider value={{state, setState}}>{children}</GeneralContext.Provider>

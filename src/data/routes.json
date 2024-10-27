@@ -1,0 +1,153 @@
+{
+    "routes": [
+        {
+            "id": 1,
+            "routeNumber": "305",
+            "start": "Vadgaon Maval",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
+        },
+        {
+            "id": 2,
+            "routeNumber": "305",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Vadgaon Maval",
+            "isGoingUp": false
+        },
+        {
+            "id": 3,
+            "routeNumber": "336",
+            "start": "Wagholi",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
+        },
+        {
+            "id": 4,
+            "routeNumber": "366",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Wagholi",
+            "isGoingUp": false
+        },
+        {
+            "id": 5,
+            "routeNumber": "123",
+            "start": "Manapa Bhavan",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
+        },
+        {
+            "id": 6,
+            "routeNumber": "123",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Manapa Bhavan",
+            "isGoingUp": false
+        },
+        {
+            "id": 7,
+            "routeNumber": "366",
+            "start": "Pune Railway Station",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
+        },
+        {
+            "id": 8,
+            "routeNumber": "366",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Pune Railway Station",
+            "isGoingUp": false
+        },
+        {
+            "id": 9,
+            "routeNumber": "42",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Katraj",
+            "isGoingUp": false
+        },
+        {
+            "id": 10,
+            "routeNumber": "42",
+            "start": "Katraj",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
+        }
+    ],
+    "busStops": [
+        {
+            "up": {
+                "305": [
+                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                ],
+                "336": [
+                    { "label": "Wagholi", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                ],
+                "366": [
+                    { "label": "Pune Railway Station", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                ],
+                "123": [
+                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                ],
+                "42": [
+                    { "label": "Katraj", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                ]
+            },
+            "down": {
+                "305": [
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s3" },
+                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s4" },
+                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s5" }
+                ],
+                "336": [
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Wagholi", "fair": "10", "stop": "s3" },
+                    { "label": "Wagholi", "fair": "10", "stop": "s4" },
+                    { "label": "Wagholi", "fair": "10", "stop": "s5" }
+                ],
+                "366": [
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Pune Railway Station", "fair": "10", "stop": "s3" },
+                    { "label": "Pune Railway Station", "fair": "10", "stop": "s4" },
+                    { "label": "Pune Railway Station", "fair": "10", "stop": "s5" }
+                ],
+                "123": [
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s3" },
+                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s4" },
+                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s5" }
+                ],
+                "42": [
+                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
+                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
+                    { "label": "Katraj", "fair": "10", "stop": "s3" },
+                    { "label": "Katraj", "fair": "10", "stop": "s4" },
+                    { "label": "Katraj", "fair": "10", "stop": "s5" }
+                ]
+            }
+        }
+             
+    ]
+}

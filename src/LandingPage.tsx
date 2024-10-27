@@ -8,6 +8,8 @@ import TicketCard from "./components/ticket/TicketCard";
 import { useGeneralContext } from "./generalContextApi";
 import { Alert, Box, Snackbar } from "@mui/material";
 import { useState } from "react";
+import NearMeComponent from "./components/nearme/NearMe";
+import NearByComponent from "./components/nearby/NearBy";
 
 const Landing = () => {
   const context: any = useGeneralContext();
@@ -35,6 +37,12 @@ const Landing = () => {
           <RouteCard />
           <MetroCard />
         </div>
+        <section>
+          <NearMeComponent />
+        </section>
+        <section>
+          <NearByComponent />
+        </section>
       </div>
       <Box sx={{ width: 500 }}>
         <Snackbar
