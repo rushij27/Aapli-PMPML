@@ -10,6 +10,7 @@
         "passTitle": "Daily Pass",
         "timer": "Timer:",
         "lastDigits": "Enter last 4 digits of your Aadhar or Pan Card",
+        "routePlaceholder": "Select or Enter route",
         "idInstruction": "You should have a valid GOV. ID with above details.",
         "amount": "AMOUNT PAYABLE"
     }
