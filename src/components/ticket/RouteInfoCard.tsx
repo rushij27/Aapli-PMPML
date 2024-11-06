@@ -13,9 +13,9 @@ export const RouteInfoCard = ({ route, start, end }: any) => {
                 <span className="font-bold">{route}</span>
             </div>
             <div>
-                <div className="text-sm">Starts: {start}</div>
+                <div className="text-sm">O {start}</div>
                 <div>|</div>
-                <div className="text-sm">Ends:  {end}</div>
+                <div className="text-sm">O  {end}</div>
             </div>
         </div>
     )

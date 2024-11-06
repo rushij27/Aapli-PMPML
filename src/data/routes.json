@@ -69,85 +69,862 @@
             "start": "Katraj",
             "end": "Nigdi Pawale Chowk",
             "isGoingUp": true
+        },
+        {
+            "id": 11,
+            "routeNumber": "139",
+            "start": "Nigdi Pawale Chowk",
+            "end": "Bhekarainagar (Hadapsar)",
+            "isGoingUp": false
+        },
+        {
+            "id": 12,
+            "routeNumber": "139",
+            "start": "Bhekarainagar (Hadapsar)",
+            "end": "Nigdi Pawale Chowk",
+            "isGoingUp": true
         }
     ],
     "busStops": [
         {
             "up": {
                 "305": [
-                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Vadgaon Maval",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Somatne Phata",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Talegaon",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Gahunje",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Punawale",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Balewadi",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Hinjewadi Phase 1",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Wakad Bridge",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Tathawade",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Chinchwad Station",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Nigdi Bus Stand",
+                        "fair": "25",
+                        "stop": "s13"
+                    }
                 ],
                 "336": [
-                    { "label": "Wagholi", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Wagholi Bus Stop",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Kesnand Road",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Trinity College",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Magarpatta",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Hadapsar",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Sasane Nagar",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "BT Kawade Road",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Pune Station",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Yerawada",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Gunjan Talkies",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Vishrantwadi",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Dhanori",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Tingre Nagar",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "25",
+                        "stop": "s16"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "30",
+                        "stop": "s17"
+                    },
+                    {
+                        "label": "Nashik Phata",
+                        "fair": "30",
+                        "stop": "s18"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "30",
+                        "stop": "s19"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "30",
+                        "stop": "s20"
+                    },
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "35",
+                        "stop": "s21"
+                    }
                 ],
                 "366": [
-                    { "label": "Pune Railway Station", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Nigdi Pawale Chowk",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Nigdi Pawale Chowk",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Nigdi Pawale Chowk",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "10",
+                        "stop": "s5"
+                    }
                 ],
                 "123": [
-                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Manapa (PCMC)",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Shivajinagar",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Nigdi",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "15",
+                        "stop": "s8"
+                    }
                 ],
                 "42": [
-                    { "label": "Katraj", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s3" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s4" },
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Katraj Bus Stand",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Katraj Lake",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Bharati Vidyapeeth",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Dhankawadi",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Swargate",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Sarasbaug",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Deccan Gymkhana",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Shivajinagar Bus Stand",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Wakadewadi",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "25",
+                        "stop": "s16"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "30",
+                        "stop": "s17"
+                    },
+                    {
+                        "label": "Nigdi Bus Stand",
+                        "fair": "30",
+                        "stop": "s18"
+                    }
+                ],
+                "139": [
+                    {
+                        "label": "Bhekarai Nagar",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Hadapsar",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Mundhwa",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Pune Station",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Wakdewadi",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Harris Bridge",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Nashik Phata",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "Nigdi",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "25",
+                        "stop": "s16"
+                    }
                 ]
             },
             "down": {
                 "305": [
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s3" },
-                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s4" },
-                    { "label": "Vadgaon Maval", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Nigdi Bus Stand",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Chinchwad Station",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Tathawade",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Wakad Bridge",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Hinjewadi Phase 1",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Balewadi",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Punawale",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Gahunje",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Talegaon",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Somatne Phata",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Vadgaon Maval",
+                        "fair": "25",
+                        "stop": "s13"
+                    }
                 ],
                 "336": [
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Wagholi", "fair": "10", "stop": "s3" },
-                    { "label": "Wagholi", "fair": "10", "stop": "s4" },
-                    { "label": "Wagholi", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Nashik Phata",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Tingre Nagar",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Dhanori",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Vishrantwadi",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Gunjan Talkies",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Yerawada",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Pune Station",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "BT Kawade Road",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Sasane Nagar",
+                        "fair": "25",
+                        "stop": "s16"
+                    },
+                    {
+                        "label": "Hadapsar",
+                        "fair": "30",
+                        "stop": "s17"
+                    },
+                    {
+                        "label": "Magarpatta",
+                        "fair": "30",
+                        "stop": "s18"
+                    },
+                    {
+                        "label": "Trinity College",
+                        "fair": "30",
+                        "stop": "s19"
+                    },
+                    {
+                        "label": "Kesnand Road",
+                        "fair": "30",
+                        "stop": "s20"
+                    },
+                    {
+                        "label": "Wagholi Bus Stop",
+                        "fair": "35",
+                        "stop": "s21"
+                    }
                 ],
                 "366": [
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Pune Railway Station", "fair": "10", "stop": "s3" },
-                    { "label": "Pune Railway Station", "fair": "10", "stop": "s4" },
-                    { "label": "Pune Railway Station", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Nigdi Pawale Chowk",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "10",
+                        "stop": "s5"
+                    }
                 ],
                 "123": [
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s3" },
-                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s4" },
-                    { "label": "Manapa Bhavan", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Nigdi",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Shivajinagar",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Manapa (PCMC)",
+                        "fair": "15",
+                        "stop": "s8"
+                    }
                 ],
                 "42": [
-                    { "label": "Bhakti Shakti", "fair": "10", "stop": "s1" },
-                    { "label": "Nigdi Pawale Chowk", "fair": "10", "stop": "s2" },
-                    { "label": "Katraj", "fair": "10", "stop": "s3" },
-                    { "label": "Katraj", "fair": "10", "stop": "s4" },
-                    { "label": "Katraj", "fair": "10", "stop": "s5" }
+                    {
+                        "label": "Nigdi Bus Stand",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Wakadewadi",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Pune Railway Station",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Shivajinagar Bus Stand",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Deccan Gymkhana",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Sarasbaug",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Swargate",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "Dhankawadi",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Bharati Vidyapeeth",
+                        "fair": "25",
+                        "stop": "s16"
+                    },
+                    {
+                        "label": "Katraj Lake",
+                        "fair": "30",
+                        "stop": "s17"
+                    },
+                    {
+                        "label": "Katraj Bus Stand",
+                        "fair": "30",
+                        "stop": "s18"
+                    }
+                ],
+                "139": [
+                    {
+                        "label": "Bhakti Shakti",
+                        "fair": "10",
+                        "stop": "s1"
+                    },
+                    {
+                        "label": "Nigdi",
+                        "fair": "10",
+                        "stop": "s2"
+                    },
+                    {
+                        "label": "Akurdi",
+                        "fair": "10",
+                        "stop": "s3"
+                    },
+                    {
+                        "label": "Chinchwad",
+                        "fair": "10",
+                        "stop": "s4"
+                    },
+                    {
+                        "label": "Pimpri",
+                        "fair": "15",
+                        "stop": "s5"
+                    },
+                    {
+                        "label": "Nashik Phata",
+                        "fair": "15",
+                        "stop": "s6"
+                    },
+                    {
+                        "label": "Kasarwadi",
+                        "fair": "15",
+                        "stop": "s7"
+                    },
+                    {
+                        "label": "Dapodi",
+                        "fair": "15",
+                        "stop": "s8"
+                    },
+                    {
+                        "label": "Bopodi",
+                        "fair": "20",
+                        "stop": "s9"
+                    },
+                    {
+                        "label": "Khadki",
+                        "fair": "20",
+                        "stop": "s10"
+                    },
+                    {
+                        "label": "Harris Bridge",
+                        "fair": "20",
+                        "stop": "s11"
+                    },
+                    {
+                        "label": "Wakdewadi",
+                        "fair": "20",
+                        "stop": "s12"
+                    },
+                    {
+                        "label": "Pune Station",
+                        "fair": "25",
+                        "stop": "s13"
+                    },
+                    {
+                        "label": "Mundhwa",
+                        "fair": "25",
+                        "stop": "s14"
+                    },
+                    {
+                        "label": "Hadapsar",
+                        "fair": "25",
+                        "stop": "s15"
+                    },
+                    {
+                        "label": "Bhekarai Nagar",
+                        "fair": "25",
+                        "stop": "s16"
+                    }
                 ]
             }
         }
-             
     ]
 }
